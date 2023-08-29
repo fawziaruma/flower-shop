@@ -134,7 +134,7 @@ body{
 }
 /* ......latest deal..... */
 .latest-deal{
-    background-image: url('/image/Rectangle\ 9.png');
+    background-image: url('/image/background.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
