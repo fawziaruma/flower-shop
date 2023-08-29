@@ -82,5 +82,107 @@ body{
 .flower-info a{
     color: black;
 }
-
-
+/* .....hot deal section...... */
+.hot-deal{
+    background-color: #d69eaa;
+    margin-top: 80px;
+}
+.deal-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 90px;
+    padding: 0px 30px 0px 30px;
+   
+}
+.off{
+    color: #E55473;
+}
+.deal-img img{
+    width: 318px;
+    height: 420px;
+}
+.deal-content{
+    width: 500px;
+    height: 218px;
+    text-align: center;
+}
+.deal-info{
+    font-size: 15px;
+    color: #FFFF;
+}
+#deal-btn{
+    font-size: 13px;
+    padding: 10px 20px;
+}
+/* ....instagram section... */
+#instagram{
+    margin-top: -100px;
+}
+.insta-cards{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    max-width: 500px;
+    margin-left: 120px;
+    margin-top: -60px;
+ 
+}
+.insta-card img{
+    width: 200px;
+}
+/* ......latest deal..... */
+.latest-deal{
+    background-image: url('/image/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 114px;
+    border-radius: 5px;
+}
+.latest-deal-form{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.deal-title{
+    font-size: 30px;
+    font-weight: 800;
+}
+.deal-text{
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: -22px;
+}
+input{
+    background-color: #FFF;
+    padding: 9px 5px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    width: 270px;
+    border-radius: 5px;
+}
+/* .....footer style...... */
+footer{
+    background-color: black;
+    color: white;
+    height: 300px;
+    text-align: center;
+    padding: 30px 90px;
+}
+.Flower{
+    color: #E55473;
+}
+footer h3{
+    font-size: 40px;
+    font-weight: 600;
+}
+.footer-info{
+    font-size: 15px;
+    margin: -30px 140px;
+}
+.copyright{
+    margin-top: 40px;
+    font-size: 10px;
+}
