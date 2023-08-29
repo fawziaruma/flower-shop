@@ -1,36 +1,86 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-
 .banner{
-    background-color: #E55473;
-    height: 500px;
+    background-color: #FFF8F3;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    padding: 20px 20px 0px 100px;
+    padding: 30px 30px 30px 90px;
 }
-.banner .banner-image{
-    width: 500px;
+.profile-pic{
+    width: 400px;
     height: 500px;
 }
 .banner-content{
     max-width: 500px;
 }
 .banner-title{
-    font-size: 50px;
+    font-size: 55px;
     font-weight: 600;
-    margin-top: 5px;
-    margin-bottom: 20px;
 }
 .banner-info{
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: -14px;
 }
-.banner-btn{
+.btn-primary{
     background-color: #E55473;
     color: #FFF;
+    padding: 7px 10px;
+    border: none;
     outline: none;
-    font-size: 13px;
-    padding: 7px 20px;
+    border-radius: 5px;
 }
+/* .......main section style........ */
+.our-flower{
+   padding: 90px;
+   margin: 10px 130px;
+    
+}
+.section-title{
+    text-align: center;
+    font-size: 55px;
+    font-weight: 600;
+}
+.section-description{
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+   margin-top: -23px;
+}
+/*...... our flower..... */
+.card{
+    width:250px;
+    height: 250px;
+    border-radius:120px 120px 0px 0px;
+}
+#card-1{
+    background-color: #E55473;
+}
+#card-2{
+    background-color: #0597A0;
+}
+#card-3{
+    background-color: #477D11;
+}
+.cards-container{
+    max-width: 500px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 287px;
+    gap: 15px;
+}
+.card img{
+    width: 170px;
+    height: 230px;
+    padding: 15px 30px;
+}
+.flower-info{
+    text-align: center;
+    font-size: 17px;
+}
+.flower-info a{
+    color: black;
+}
+
+
