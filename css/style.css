@@ -5,7 +5,7 @@ body{
     background-color: #FFF8F3;
     display: flex;
     justify-content: space-between;
-    padding: 30px 30px 30px 90px;
+    padding: 30px 30px 0px 90px;
 }
 .profile-pic{
     width: 400px;
@@ -51,17 +51,17 @@ body{
 /*...... our flower..... */
 .card{
     width:250px;
-    height: 250px;
+    height: 300px;
     border-radius:120px 120px 0px 0px;
 }
 #card-1{
-    background-color: #E55473;
+    background-color: #f3ccd4;
 }
 #card-2{
-    background-color: #0597A0;
+    background-color: #e2eced;
 }
 #card-3{
-    background-color: #477D11;
+    background-color: #bbbfb7;
 }
 .cards-container{
     max-width: 500px;
@@ -74,6 +74,7 @@ body{
     width: 170px;
     height: 230px;
     padding: 15px 30px;
+    margin-top: 53px;
 }
 .flower-info{
     text-align: center;
@@ -84,7 +85,7 @@ body{
 }
 /* .....hot deal section...... */
 .hot-deal{
-    background-color: #d69eaa;
+    background-color: #fcb2c2;
     margin-top: 80px;
 }
 .deal-section{
@@ -109,7 +110,7 @@ body{
 }
 .deal-info{
     font-size: 15px;
-    color: #FFFF;
+    color: black;
 }
 #deal-btn{
     font-size: 13px;
